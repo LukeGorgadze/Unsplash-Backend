@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-g31)l!4p+0or6evnerhsn#$7#tdnil70o!$2(8a(yk!w=b!ve9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app','.now.sh','127.0.0.1']
+ALLOWED_HOSTS = ['.vercel.app','.now.sh']
 
 
 # Application definition
@@ -87,7 +87,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'UnsplashBackend.wsgi.app'
+WSGI_APPLICATION = 'UnsplashBackend.wsgi.application'
 
 
 # Database
